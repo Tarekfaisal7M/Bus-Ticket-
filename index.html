@@ -1,11 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sajib Poribohon</title>
+
+    <!-- daisy ui link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- link for css -->
+    <link rel="stylesheet" href="Style/style.css">
+
 </head>
+
 <body>
-    
+    <section>
+        <!-- nav bar -->
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                    </div>
+                    <a class=" text-2xl font-bold">Bus-Ticket</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Destination</a></li>
+                        <li><a>Search</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end rounded-s-xl">
+                    <a class="btn btn-outline btn-success">Bus <span><img src="images/bus-icon.png"
+                                alt=""></span></a>
+                </div>
+            </div>
+        </nav>
+        <!-- banner side -->
+        <div>
+            <div class="hero min-h-screen" style="background-image: url(images/banner.png);">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-center text-neutral-content">
+                    <div class="max-w-md">
+                        <h1 class="mb-5 text-4xl font-bold">End-to-End Travel with <br> <span
+                                class="text-green-500">sajib Paribahan</span></h1>
+                        <p class="mb-5">Due to Special Reserve service, Reserve bus ticket fare might be higher than
+                            regular, Customers are requested to check fare before purchase.</p>
+                        <button class="btn bg-green-600">Buy Tickets</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div>
+            <h1 class="text-4xl font-black text-center ">Best offers for you</h1>
+        </div>
+        <br>
+        <div class="">
+            <!-- card-1 -->
+            <div class="flex flex-col-1">
+                <div class="card lg:card-side bg-base-100 shadow-xl">
+                    <figure><img src="https://daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.jpg"
+                            alt="Album" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title">New album is released!</h2>
+                        <p>Click the button to listen on Spotiwhy app.</p>
+                        <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Listen</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-2 -->
+                <div>
+                    <div class="card lg:card-side bg-base-100 shadow-xl">
+                        <figure><img src="https://daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.jpg"
+                                alt="Album" /></figure>
+                        <div class="card-body">
+                            <h2 class="card-title">New album is released!</h2>
+                            <p>Click the button to listen on Spotiwhy app.</p>
+                            <div class="card-actions justify-end">
+                                <button class="btn btn-primary">Listen</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center p-6">
+                <button class="btn btn-outline btn-success">See All Offers</button>
+            </div>
+    </section>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
+
 </html>
